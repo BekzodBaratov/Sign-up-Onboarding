@@ -87,6 +87,11 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
+  transition: 0.3s;
+}
+.two12:hover img {
+  transform: scale(1.1);
+  /* animation: imgs 0.3s linear; */
 }
 .cart12 i,
 .cart12 p {
@@ -110,7 +115,7 @@ body {
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.11);
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 72vh;
+  height: 80%;
 }
 .box11 {
   padding: 2rem 5rem;
@@ -171,6 +176,11 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
+  transition: 0.3s;
+}
+.two12:hover img {
+  transform: scale(1.1);
+  /* animation: imgs 0.3s linear; */
 }
 .box12 i,
 .box12 p {
@@ -193,7 +203,7 @@ body {
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.11);
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 73vh;
+  height: 80%;
 }
 .add11 {
   padding: 2rem 5rem;
@@ -255,6 +265,11 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
+  transition: 0.3s;
+}
+.two12:hover img {
+  transform: scale(1.1);
+  /* animation: imgs 0.3s linear; */
 }
 .add12 i,
 .add12 p {
@@ -268,3 +283,110 @@ body {
   left: 7%;
 }
 /* /Sign up add */
+/* Sign up last, sign up two */
+.two1,
+.last1 {
+  width: 90%;
+  margin: 10% auto;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.11);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 73vh;
+}
+.two11,
+.last11 {
+  padding: 2rem 5rem;
+}
+.two11 h1,
+.last11 h1 {
+  font-size: 2.8rem;
+  padding: 1rem 0;
+  color: #2e2e2e;
+  font-weight: 500;
+}
+.two11 span,
+.last11 span {
+  font-size: 1.6rem;
+  color: #2e2e2e;
+  border-bottom: 3px solid #f0f0f0;
+}
+.two11 span:hover,
+.last11 span:hover {
+  border-bottom: 3px solid blue;
+}
+.two11 label,
+.last11 label {
+  display: block;
+  font-size: 1.2rem;
+  color: gray;
+  padding: 0.6rem 0;
+}
+.two11 input,
+.two11 select,
+.two11 button,
+.last11 input,
+.last11 button {
+  width: 100%;
+  font-size: 1.6rem;
+  padding: 0.4rem;
+  border-radius: 5px;
+  border: 1px solid gray;
+  background-color: #f0f0f0;
+  margin-bottom: 1rem;
+}
+
+.two11 input:hover,
+.two11 select:hover,
+.last11 input:hover {
+  background-color: #c4c4c4;
+}
+.two11 button,
+.last11 button {
+  border: 0;
+  background-color: #ffa500;
+  color: white;
+  padding: 0.7rem 0;
+}
+.two11 button:hover,
+.last11 button:hover {
+  background-color: #ffbf48;
+}
+.two11 p,
+.last11 p {
+  text-align: center;
+  font-size: 1.2rem;
+}
+.two12,
+.last12 {
+  position: relative;
+  grid-row: 1;
+  overflow: hidden;
+}
+.two12 img,
+.last12 img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: 0.3s;
+}
+.two12:hover img,
+.last12:hover img {
+  transform: scale(1.1);
+}
+.two12 i,
+.two12 p,
+.last12 i,
+.last12 p {
+  color: blue;
+  position: absolute;
+  right: 7%;
+  top: 6%;
+  font-size: 1.6rem;
+}
+.two12 p,
+.last12 p {
+  left: 7%;
+}
+/* /Sign up two, last up two */
