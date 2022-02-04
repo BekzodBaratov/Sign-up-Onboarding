@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f0f0f0;
+  font-size: 62.5%;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.flex {
+  display: flex;
+  gap: 10px;
+}
+/* Sign up */
+
+.cart1 {
+  width: 90%;
+  margin: 10% auto;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.11);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 73vh;
+}
+.cart11 {
+  padding: 2rem 5rem;
+}
+.cart11 h1 {
+  font-size: 2.8rem;
+  padding: 1rem 0;
+  color: #2e2e2e;
+  font-weight: 500;
+}
+.cart11 span {
+  font-size: 1.6rem;
+  color: #2e2e2e;
+  border-bottom: 3px solid #f0f0f0;
+}
+.cart11 span:hover {
+  border-bottom: 3px solid blue;
+}
+.cart11 label {
+  display: block;
+  font-size: 1.2rem;
+  color: gray;
+  padding: 0.6rem 0;
+}
+.cart11 input,
+.cart11 select,
+.cart11 button {
+  width: 100%;
+  font-size: 1.6rem;
+  padding: 0.4rem;
+  border-radius: 5px;
+  border: 1px solid gray;
+  background-color: #f0f0f0;
+  margin-bottom: 1rem;
+}
+
+.cart11 input:hover,
+.cart11 select:hover {
+  background-color: #c4c4c4;
+}
+.cart11 button {
+  border: 0;
+  background-color: #00008b;
+  color: white;
+  padding: 0.7rem 0;
+}
+.cart11 button:hover {
+  background-color: #0000c5;
+}
+.cart11 p {
+  text-align: center;
+  font-size: 1.2rem;
+}
+.cart12 {
+  position: relative;
+}
+.cart12 img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.cart12 i,
+.cart12 p {
+  color: blue;
+  position: absolute;
+  right: 7%;
+  top: 6%;
+  font-size: 1.6rem;
+}
+.cart12 p {
+  left: 7%;
+}
+/* /Sign up */
