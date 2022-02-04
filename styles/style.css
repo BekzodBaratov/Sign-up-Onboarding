@@ -39,5 +39,101 @@
     background-color: red;
 }
 
+.login{
+    margin-top: 17px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 135px;
+}
+.login .singup{
+    font-size: 28px;
+}
+.information{
+    margin-top: 20px;
+    display: flex;
+    gap: 48px;
+}
+.information .person{
+    border-bottom: 2px solid #E0E7FF;
+    padding-bottom: 8.5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s linear;
+}
+.information .person:hover{
+    border-bottom: 2px solid #A99A77;
+}
+.login .fullName{
+    margin-top: 15px;
+    color: #8C98A9;
+    margin-bottom: 7px;
+}
+.bginput{
+    padding:13px;
+    border-radius: 6px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+.select{
+    padding: 11.8px 13px;
+    background-color: white;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+.select .who{
+    font-size: 15px;
+    font-weight: bold;
+}
+.select select{
+    outline: none;
+    border: none;
+    padding: 0 15px;
+    font-weight: bold;
+}
+.select select option{
+    padding: 5px 10px;
+}
+.time{
+    display: flex;
+    gap: 10px;
+}
+.time input{
+    width: 84px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    padding-left: 12px;
+}
+.box-one .btn{
+    width: 100%;
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    background-color: #A99A77;
+    font-size: 12px;
+    margin-top: 12px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+.box-one .btn:hover{
+    background-color: #A99A40
+}
+.fullName span{
+    color: #F18282;
+}
+.fullName a{
+    text-decoration: none;
+    color: #A99A77;
+}
+.fullName a:hover{
+    color: #A99A40;
+}
 
 
