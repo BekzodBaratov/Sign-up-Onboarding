@@ -5,8 +5,8 @@
 }
 
 .big{
-    margin: 30px 100px;
-    width: 1000px;
+    margin: 30px auto;
+    width: 1158px;
     height: 648px;
     position: relative;
 }
@@ -128,14 +128,14 @@
 .box-one .btn:hover{
     background-color: #A99A40
 }
-.fullName span{
+.login .fullName span{
     color: #F18282;
 }
-.fullName a{
+.login .fullName a{
     text-decoration: none;
     color: #A99A77;
 }
-.fullName a:hover{
+.login .fullName a:hover{
     color: #A99A40;
 }
 
@@ -174,6 +174,102 @@
 }
 .cart{
     cursor: pointer;
+}
+
+
+.section-three{
+    /*background-color: #F4F6FC;*/
+}
+.section-three .big .d-flex{
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 30px;
+}
+.big .img3{
+    position: absolute;
+    height: 100%;
+    z-index: -1;
+    right: 0;
+    /*overflow: hidden;*/
+}
+
+.big .align{
+    height: 100%;
+}
+.big .d-flex .left3 {
+    background-color: white;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left3 .signIn .singin{
+    font-size: 28px;
+    color: #2E384D;
+}
+.left3 .bginput3{
+    border: 1px solid #E0E7FF;
+}
+.bginput3-pas{
+    letter-spacing: 6px;
+}
+.signIn  .fullName{
+    margin-top: 13px;
+    color: #8C98A9;
+    margin-bottom: 7px;
+}
+.signIn .fullName a{
+    text-decoration: none;
+    color: #8C98A9;
+    transition: 0.3s linear;
+}
+.signIn .fullName a:hover{
+    color: #C5CCE4;
+}
+.btn3{
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #2E384D;
+    color: white;
+    font-size: 12px;
+    width: 227.6px;
+    margin-top: 10px;
+    transition: 0.3s linear;
+}
+.btn3:hover{
+    background-color: #2AA0B3;
+}
+.left3 .fullName{
+    margin-top: 15px;
+    color: #8C98A9;
+
+}
+.left3 .fullName a{
+    text-decoration: none;
+    color: #2AA0B3;
+}
+.left3 .fullName a:hover{
+    color: #2E384D;
+}
+
+.left4, .right4{
+    margin-top: 25px;
+}
+
+
+
+.right3{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.leftmar{
+    margin-left: 50px;
 }
 
 
