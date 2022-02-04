@@ -60,6 +60,9 @@
     font-size: 16px;
     transition: 0.3s linear;
 }
+/*.information .person:active{*/
+/*    border-bottom: 2px solid #A99A77;*/
+/*}*/
 .information .person:hover{
     border-bottom: 2px solid #A99A77;
 }
@@ -99,10 +102,10 @@
 }
 .time{
     display: flex;
-    gap: 10px;
+    justify-content: space-between;
 }
 .time input{
-    width: 84px;
+    width: 72.46px;
     height: 40px;
     border: none;
     outline: none;
@@ -135,5 +138,44 @@
 .fullName a:hover{
     color: #A99A40;
 }
+
+
+
+.left2{
+    color: white;
+}
+.bginput1{
+    background-color: #E0E7FF;
+}
+.bginput1-pas{
+    letter-spacing: 6px;
+    background-color: #E0E7FF;
+}
+
+.select1{
+    padding: 11.8px 13px;
+    background-color: #E0E7FF;
+    border-radius: 6px;
+    display: flex;
+}
+.select .who{
+    font-size: 15px;
+    font-weight: bold;
+}
+.select .line-height{
+    width: 1px;
+    height: 20px;
+    background-color: #C5CCE4;
+}
+.select input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.cart{
+    cursor: pointer;
+}
+
+
 
 
