@@ -100,3 +100,171 @@ body {
   left: 7%;
 }
 /* /Sign up */
+/* Sign up error */
+
+.box1 {
+  width: 90%;
+  margin: 10% auto;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.11);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 72vh;
+}
+.box11 {
+  padding: 2rem 5rem;
+}
+.box11 h1 {
+  font-size: 2.8rem;
+  padding: 1rem 0;
+  color: #2e2e2e;
+  font-weight: 500;
+}
+.box11 span {
+  font-size: 1.6rem;
+  color: #2e2e2e;
+  border-bottom: 3px solid #f0f0f0;
+}
+.box11 span:hover {
+  border-bottom: 3px solid blue;
+}
+.box11 label {
+  display: block;
+  font-size: 1.2rem;
+  color: gray;
+  padding: 0.6rem 0;
+}
+.box11 input,
+.box11 select,
+.box11 button {
+  width: 100%;
+  font-size: 1.6rem;
+  padding: 0.4rem;
+  border-radius: 5px;
+  border: 1px solid gray;
+  background-color: #f0f0f0;
+  margin-bottom: 1rem;
+}
+
+.box11 input:hover,
+.box11 select:hover {
+  background-color: #c4c4c4;
+}
+.box11 button {
+  border: 0;
+  background-color: #00008b;
+  color: white;
+  padding: 0.7rem 0;
+}
+.box11 button:hover {
+  background-color: #0000c5;
+}
+.box11 p {
+  text-align: center;
+  font-size: 1.2rem;
+}
+.box12 {
+  position: relative;
+}
+.box12 img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.box12 i,
+.box12 p {
+  color: blue;
+  position: absolute;
+  right: 7%;
+  top: 6%;
+  font-size: 1.6rem;
+}
+.box12 p {
+  left: 7%;
+}
+/* /Sign up error */
+/* Sign up add */
+.add1 {
+  width: 90%;
+  margin: 10% auto;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.11);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 73vh;
+}
+.add11 {
+  padding: 2rem 5rem;
+}
+.add11 h1 {
+  font-size: 2.8rem;
+  padding: 1rem 0;
+  color: #2e2e2e;
+  font-weight: 500;
+}
+.add11 span {
+  font-size: 1.6rem;
+  color: #2e2e2e;
+  border-bottom: 3px solid #f0f0f0;
+}
+.add11 span:hover {
+  border-bottom: 3px solid blue;
+}
+.add11 label {
+  display: block;
+  font-size: 1.2rem;
+  color: gray;
+  padding: 0.6rem 0;
+}
+.add11 input,
+.add11 select,
+.add11 button {
+  width: 100%;
+  font-size: 1.6rem;
+  padding: 0.4rem;
+  border-radius: 5px;
+  border: 1px solid gray;
+  background-color: #f0f0f0;
+  margin-bottom: 1rem;
+}
+
+.add11 input:hover,
+.add11 select:hover {
+  background-color: #c4c4c4;
+}
+.add11 button {
+  border: 0;
+  background-color: #ffa500;
+  color: white;
+  padding: 0.7rem 0;
+}
+.add11 button:hover {
+  background-color: #ffbf48;
+}
+.add11 p {
+  text-align: center;
+  font-size: 1.2rem;
+}
+.add12 {
+  position: relative;
+  grid-row: 1;
+}
+.add12 img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.add12 i,
+.add12 p {
+  color: blue;
+  position: absolute;
+  right: 7%;
+  top: 6%;
+  font-size: 1.6rem;
+}
+.add12 p {
+  left: 7%;
+}
+/* /Sign up add */
