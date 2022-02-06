@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: serif;
+  font-size: 62.5%;
+}
+.umumiy {
+  max-width: 100%;
+  height: 100rem;
+  box-shadow: 2 2 2 20 grey;
+}
+h1 {
+  position: relative;
+  font-size: 8.2rem;
+  padding-left: 38%;
+  opacity: 0.03;
+  font-weight: bold;
+}
+.tex2 {
+  font-size: 3rem;
+  position: absolute;
+  top: 3.5rem;
+  left: 45%;
+}
+.grid1 {
+  max-width: 80%;
+  display: grid;
+  margin: 0 auto;
+  height: 200rem;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.grid {
+  border-radius: 0.3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  max-width: 100%;
+  margin: 0 auto;
+  height: 3.5rem;
+  background-color: #dbdbdb;
+  font-size: 1.8rem;
+}
+.bir4 {
+  top: 9.4rem;
+  position: absolute;
+  padding-left: 3rem;
+}
+.bir3 {
+  top: 9.4rem;
+  position: absolute;
+  padding-left: 3rem;
+}
+.bir2 {
+  top: 9.4rem;
+  position: absolute;
+  padding-left: 3rem;
+}
+.bir1 {
+  top: 9.4rem;
+  position: absolute;
+  padding-left: 3rem;
+}
