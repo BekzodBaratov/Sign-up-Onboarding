@@ -25,6 +25,12 @@ h1 {
   top: 3.5rem;
   left: 45%;
 }
+.texe1 {
+  font-size: 3rem;
+  position: absolute;
+  top: 213rem;
+  left: 45%;
+}
 .grid1 {
   max-width: 80%;
   display: grid;
@@ -61,4 +67,277 @@ h1 {
   top: 9.4rem;
   position: absolute;
   padding-left: 3rem;
+}
+.bir14 {
+  top: 29.4rem;
+  position: absolute;
+  padding-left: 3rem;
+}
+.bir13 {
+  top: 29.4rem;
+  position: absolute;
+  padding-left: 3rem;
+}
+.bir12 {
+  top: 29.4rem;
+  position: absolute;
+  padding-left: 3rem;
+}
+.bir11 {
+  top: 29.4rem;
+  position: absolute;
+  padding-left: 3rem;
+}
+.bir40 {
+  top: 49.4rem;
+  position: absolute;
+  padding-left: 3rem;
+}
+.bir30 {
+  top: 49.4rem;
+  position: absolute;
+  padding-left: 3rem;
+}
+.bir20 {
+  top: 49.4rem;
+  position: absolute;
+  padding-left: 3rem;
+}
+.bir10 {
+  top: 49.4rem;
+  position: absolute;
+  padding-left: 3rem;
+}
+.bir24 {
+  top: 69.4rem;
+  position: absolute;
+  padding-left: 3rem;
+}
+.bir23 {
+  top: 69.4rem;
+  position: absolute;
+  padding-left: 3rem;
+}
+.bir22 {
+  top: 69.4rem;
+  position: absolute;
+  padding-left: 3rem;
+}
+.bir21 {
+  top: 69.4rem;
+  position: absolute;
+  padding-left: 3rem;
+}
+.bir34 {
+  top: 89.4rem;
+  position: absolute;
+  padding-left: 3rem;
+}
+.bir33 {
+  top: 89.4rem;
+  position: absolute;
+  padding-left: 3rem;
+}
+.bir32 {
+  top: 89.4rem;
+  position: absolute;
+  padding-left: 3rem;
+}
+.bir31 {
+  top: 89.4rem;
+  position: absolute;
+  padding-left: 3rem;
+}
+.bir44 {
+  top: 109.4rem;
+  position: absolute;
+  padding-left: 3rem;
+}
+.bir43 {
+  top: 109.4rem;
+  position: absolute;
+  padding-left: 3rem;
+}
+.bir42 {
+  top: 109.4rem;
+  position: absolute;
+  padding-left: 3rem;
+}
+.bir41 {
+  top: 109.4rem;
+  position: absolute;
+  padding-left: 3rem;
+}
+.bir54 {
+  top: 129.4rem;
+  position: absolute;
+  padding-left: 3rem;
+}
+.bir53 {
+  top: 129.4rem;
+  position: absolute;
+  padding-left: 3rem;
+}
+.bir52 {
+  top: 129.4rem;
+  position: absolute;
+  padding-left: 3rem;
+}
+.bir51 {
+  top: 129.4rem;
+  position: absolute;
+  padding-left: 3rem;
+}
+.bir64 {
+  top: 149.4rem;
+  position: absolute;
+  padding-left: 3rem;
+}
+.bir63 {
+  top: 149.4rem;
+  position: absolute;
+  padding-left: 3rem;
+}
+.bir62 {
+  top: 149.4rem;
+  position: absolute;
+  padding-left: 3rem;
+}
+.bir61 {
+  top: 149.4rem;
+  position: absolute;
+  padding-left: 3rem;
+}
+.bir74 {
+  top: 169.4rem;
+  position: absolute;
+  padding-left: 3rem;
+}
+.bir73 {
+  top: 169.4rem;
+  position: absolute;
+  padding-left: 3rem;
+}
+.bir72 {
+  top: 169.4rem;
+  position: absolute;
+  padding-left: 3rem;
+}
+.bir71 {
+  top: 169.4rem;
+  position: absolute;
+  padding-left: 3rem;
+}
+.bir84 {
+  top: 189.4rem;
+  position: absolute;
+  padding-left: 3rem;
+}
+.bir83 {
+  top: 189.4rem;
+  position: absolute;
+  padding-left: 3rem;
+}
+.bir82 {
+  top: 189.4rem;
+  position: absolute;
+  padding-left: 3rem;
+}
+.bir81 {
+  top: 189.4rem;
+  position: absolute;
+  padding-left: 3rem;
+}
+.kichik {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 0.5fr 4fr;
+  font-size: 1.6rem;
+}
+.kichik1 {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 4fr;
+  font-size: 1.6rem;
+}
+.kichik2 {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 4fr;
+  font-size: 1.6rem;
+}
+.kichik3 {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 4fr;
+  font-size: 1.6rem;
+}
+.kichik4 {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 4fr;
+  font-size: 1.6rem;
+}
+.rasm1 {
+  margin-top: 3rem;
+}
+.te1 {
+  margin-top: 3rem;
+}
+.ikkinchi2 {
+  max-width: 80%;
+  height: 65%;
+  margin: 0 auto;
+  box-shadow: 0 0 3rem 0.4rem #e8e8e8;
+  border-radius: 1rem;
+}
+.galareya-grid {
+  max-width: 100%;
+  height: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column: 1rem;
+  grid-row: 0.2rem;
+}
+.ras1 {
+  margin-left: 3.5rem;
+}
+.ism {
+  margin-top: 2rem;
+  margin-left: 3.5rem;
+  font-size: 1.6rem;
+}
+h3,
+h4 {
+  font-size: 1.6rem;
+}
+h4 {
+  opacity: 0.4;
+}
+h2 {
+  font-size: 1rem;
+  opacity: 0;
+}
+.texe21 {
+  font-size: 3rem;
+  position: absolute;
+  top: 278rem;
+  left: 33%;
+}
+.uchinchi {
+  max-width: 100%;
+  height: 50rem;
+  background-color: #e3e3e3;
+  position: static;
+  z-index: -1;
+}
+.btn {
+  max-width: 100%;
+  height: 50rem;
+}
+button {
+  margin-left: 20rem;
+  max-width: 500px;
+  height: 3.6rem;
 }
