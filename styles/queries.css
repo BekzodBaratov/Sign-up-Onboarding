@@ -1,0 +1,76 @@
+@media (max-width: 75em) {
+  h1 {
+    padding: 0 0 1.6rem;
+    font-size: 3.6rem;
+  }
+  .aziz span {
+    font-size: 2rem;
+  }
+  .aziz input,
+  .aziz select {
+    font-size: 2rem;
+  }
+  .aziz button {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 62.5em) {
+  .aziz {
+    padding: 4rem;
+  }
+  .aziz h1 {
+    font-size: 3rem;
+  }
+  .aziz span {
+    font-size: 1.4rem;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 4px;
+  }
+  .aziz input,
+  .aziz select {
+    font-size: 1.2rem;
+  }
+  .aziz label {
+    font-size: 1.6rem;
+  }
+  .aziz button {
+    font-size: 1.4rem;
+  }
+  .aziz p {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 50em) {
+  .men {
+    grid-template-columns: 1fr;
+    padding: 7rem;
+  }
+  .aziz {
+    grid-row: 2;
+    padding-top: 1rem;
+  }
+  .bek {
+    height: 48rem;
+  }
+}
+@media (max-width: 38.5em) {
+  .men {
+    padding: 3rem;
+  }
+  .aziz {
+    padding-top: 1rem;
+  }
+  .bek {
+    height: 40rem;
+  }
+}
+@media (max-width: 30em) {
+  .men {
+    padding: 0rem;
+  }
+}
+@media (max-width: 25em) {
+  .bek {
+    height: 30rem;
+  }
+}

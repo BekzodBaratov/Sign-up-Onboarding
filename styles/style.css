@@ -4,9 +4,11 @@
   font-family: sans-serif;
   box-sizing: border-box;
 }
+html {
+  font-size: 62.5%;
+}
 body {
   background-color: #f0f0f0;
-  font-size: 62.5%;
 }
 .grid {
   display: grid;
@@ -23,22 +25,21 @@ body {
   margin: 10% auto;
   background-color: white;
   border-radius: 3px;
-  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.11);
+  box-shadow: 1px 1px 2rem rgba(0, 0, 0, 0.11);
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 73vh;
 }
 .cart11 {
-  padding: 2rem 5rem;
+  padding: 3.2rem 8rem;
 }
 .cart11 h1 {
-  font-size: 2.8rem;
-  padding: 1rem 0;
+  font-size: 4.6rem;
+  padding: 1.6rem 0;
   color: #2e2e2e;
   font-weight: 500;
 }
 .cart11 span {
-  font-size: 1.6rem;
+  font-size: 2.4rem;
   color: #2e2e2e;
   border-bottom: 3px solid #f0f0f0;
 }
@@ -47,16 +48,16 @@ body {
 }
 .cart11 label {
   display: block;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   color: gray;
-  padding: 0.6rem 0;
+  padding: 1rem 0;
 }
 .cart11 input,
 .cart11 select,
 .cart11 button {
   width: 100%;
-  font-size: 1.6rem;
-  padding: 0.4rem;
+  font-size: 2.4rem;
+  padding: 0.6rem;
   border-radius: 5px;
   border: 1px solid gray;
   background-color: #f0f0f0;
@@ -71,14 +72,14 @@ body {
   border: 0;
   background-color: #00008b;
   color: white;
-  padding: 0.7rem 0;
+  padding: 1.1rem 0;
 }
 .cart11 button:hover {
   background-color: #0000c5;
 }
 .cart11 p {
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
 }
 .cart12 {
   position: relative;
@@ -91,7 +92,6 @@ body {
 }
 .two12:hover img {
   transform: scale(1.1);
-  /* animation: imgs 0.3s linear; */
 }
 .cart12 i,
 .cart12 p {
@@ -99,7 +99,7 @@ body {
   position: absolute;
   right: 7%;
   top: 6%;
-  font-size: 1.6rem;
+  font-size: 2.4rem;
 }
 .cart12 p {
   left: 7%;
@@ -112,44 +112,44 @@ body {
   margin: 10% auto;
   background-color: white;
   border-radius: 3px;
-  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.11);
+  box-shadow: 1px 1px 2rem rgba(0, 0, 0, 0.11);
   display: grid;
   grid-template-columns: 1fr 1fr;
   height: 80%;
 }
 .box11 {
-  padding: 2rem 5rem;
+  padding: 3.2rem 8rem;
 }
 .box11 h1 {
-  font-size: 2.8rem;
-  padding: 1rem 0;
+  font-size: 4.4rem;
+  padding: 1.6rem 0;
   color: #2e2e2e;
   font-weight: 500;
 }
 .box11 span {
-  font-size: 1.6rem;
+  font-size: 2.4rem;
   color: #2e2e2e;
-  border-bottom: 3px solid #f0f0f0;
+  border-bottom: 4.8px solid #f0f0f0;
 }
 .box11 span:hover {
-  border-bottom: 3px solid blue;
+  border-bottom: 4.8px solid blue;
 }
 .box11 label {
   display: block;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   color: gray;
-  padding: 0.6rem 0;
+  padding: 1rem 0;
 }
 .box11 input,
 .box11 select,
 .box11 button {
   width: 100%;
-  font-size: 1.6rem;
-  padding: 0.4rem;
-  border-radius: 5px;
-  border: 1px solid gray;
+  font-size: 2.4rem;
+  padding: 0.7rem;
+  border-radius: 8px;
+  border: 1.6px solid gray;
   background-color: #f0f0f0;
-  margin-bottom: 1rem;
+  margin-bottom: 1.6rem;
 }
 
 .box11 input:hover,
@@ -160,14 +160,14 @@ body {
   border: 0;
   background-color: #00008b;
   color: white;
-  padding: 0.7rem 0;
+  padding: 1.1rem 0;
 }
 .box11 button:hover {
   background-color: #0000c5;
 }
 .box11 p {
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
 }
 .box12 {
   position: relative;
@@ -180,7 +180,6 @@ body {
 }
 .two12:hover img {
   transform: scale(1.1);
-  /* animation: imgs 0.3s linear; */
 }
 .box12 i,
 .box12 p {
@@ -188,7 +187,7 @@ body {
   position: absolute;
   right: 7%;
   top: 6%;
-  font-size: 1.6rem;
+  font-size: 2.4rem;
 }
 .box12 p {
   left: 7%;
@@ -199,23 +198,23 @@ body {
   width: 90%;
   margin: 10% auto;
   background-color: white;
-  border-radius: 3px;
-  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.11);
+  border-radius: 4.8px;
+  box-shadow: 1px 1px 2rem rgba(0, 0, 0, 0.11);
   display: grid;
   grid-template-columns: 1fr 1fr;
   height: 80%;
 }
 .add11 {
-  padding: 2rem 5rem;
+  padding: 3.2rem 8rem;
 }
 .add11 h1 {
-  font-size: 2.8rem;
-  padding: 1rem 0;
+  font-size: 4.4rem;
+  padding: 1.6rem 0;
   color: #2e2e2e;
   font-weight: 500;
 }
 .add11 span {
-  font-size: 1.6rem;
+  font-size: 2.4rem;
   color: #2e2e2e;
   border-bottom: 3px solid #f0f0f0;
 }
@@ -224,16 +223,16 @@ body {
 }
 .add11 label {
   display: block;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   color: gray;
-  padding: 0.6rem 0;
+  padding: 1rem 0;
 }
 .add11 input,
 .add11 select,
 .add11 button {
   width: 100%;
-  font-size: 1.6rem;
-  padding: 0.4rem;
+  font-size: 2.4rem;
+  padding: 0.6rem;
   border-radius: 5px;
   border: 1px solid gray;
   background-color: #f0f0f0;
@@ -248,14 +247,14 @@ body {
   border: 0;
   background-color: #ffa500;
   color: white;
-  padding: 0.7rem 0;
+  padding: 1.1rem 0;
 }
 .add11 button:hover {
   background-color: #ffbf48;
 }
 .add11 p {
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
 }
 .add12 {
   position: relative;
@@ -269,7 +268,6 @@ body {
 }
 .two12:hover img {
   transform: scale(1.1);
-  /* animation: imgs 0.3s linear; */
 }
 .add12 i,
 .add12 p {
@@ -277,7 +275,7 @@ body {
   position: absolute;
   right: 7%;
   top: 6%;
-  font-size: 1.6rem;
+  font-size: 2.4rem;
 }
 .add12 p {
   left: 7%;
@@ -293,22 +291,21 @@ body {
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.11);
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 73vh;
 }
 .two11,
 .last11 {
-  padding: 2rem 5rem;
+  padding: 3.2rem 8rem;
 }
 .two11 h1,
 .last11 h1 {
-  font-size: 2.8rem;
-  padding: 1rem 0;
+  font-size: 4.4rem;
+  padding: 1.6rem 0;
   color: #2e2e2e;
   font-weight: 500;
 }
 .two11 span,
 .last11 span {
-  font-size: 1.6rem;
+  font-size: 2.4rem;
   color: #2e2e2e;
   border-bottom: 3px solid #f0f0f0;
 }
@@ -319,9 +316,9 @@ body {
 .two11 label,
 .last11 label {
   display: block;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   color: gray;
-  padding: 0.6rem 0;
+  padding: 1rem 0;
 }
 .two11 input,
 .two11 select,
@@ -329,12 +326,12 @@ body {
 .last11 input,
 .last11 button {
   width: 100%;
-  font-size: 1.6rem;
-  padding: 0.4rem;
+  font-size: 2.4rem;
+  padding: 0.6rem;
   border-radius: 5px;
   border: 1px solid gray;
   background-color: #f0f0f0;
-  margin-bottom: 1rem;
+  margin-bottom: 1.6rem;
 }
 
 .two11 input:hover,
@@ -347,7 +344,7 @@ body {
   border: 0;
   background-color: #ffa500;
   color: white;
-  padding: 0.7rem 0;
+  padding: 1.1rem 0;
 }
 .two11 button:hover,
 .last11 button:hover {
@@ -356,7 +353,7 @@ body {
 .two11 p,
 .last11 p {
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
 }
 .two12,
 .last12 {
@@ -383,7 +380,7 @@ body {
   position: absolute;
   right: 7%;
   top: 6%;
-  font-size: 1.6rem;
+  font-size: 2.4rem;
 }
 .two12 p,
 .last12 p {
